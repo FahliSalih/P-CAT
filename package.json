@@ -4,6 +4,7 @@
   "description": "PCAT Photo app",
   "main": "app.js",
   "scripts": {
+    "start" : "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/FahliSalih/P-CAT#readme",
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "prettier": "2.8.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
